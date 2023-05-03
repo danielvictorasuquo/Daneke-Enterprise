@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="DANEKE 2.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daneke Enterprise</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+           <a href="index.html"><img class="nav-logo" src="DANEKE 2.png"></a>
+           <div class="nav-link" id="navlink">
+            <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">SIGN IN</a></li>
+                </ul>
+           </div>
+           <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1 class="h1text"> <span class="spantext">DANEKE</span> ENTERPRISE</h1>
+            <p class="ptext">...Bringing The Bank Closer To You...</p>
+            <a href="#" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+    <!-- ------ Course ------ -->
+    <section class="course">
+        <h1>Our Offer</h1>
+        <p>Daneke enterprise allows you enjoy this little benefit
+            as an appreciation for your patronage. 
+        </p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Gift Of Appreciation</h3>
+                    <p>Every two to three years, we give gifts
+                        to our customers saying thank you for their
+                        patronage. And this gifts are given irrespective
+                        of the amount an individual contributes.  
+                    </p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Your Money Is Given At Will</h3>
+                    <p>Inasmuch as you are a daily contributor or you
+                        pay your money daily, whenever you feel you need
+                        you money, Daneke Enterprise will release your
+                        money to you and can even assist you in solving 
+                        your issues.
+                    </p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Financial Help</h3>
+                    <p>We make sure that our prominent customers get a
+                        financial help by borrowing money and paying it 
+                        back after resolving his or her issues.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- ----- Campus ----- -->
+    <section class="campus">
+        <h1>Our Mission</h1>
+        <p>Daneke Enterprise has a mission and it's as follows:</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="pics1.jpg">
+                    <div class="layer">
+                        <h3>TO BE A MAJOR OPERATING ENTERPRISE</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="pics2-removebg-preview.png">
+                    <div class="layer">
+                        <h3>TO REMAIN RELEVANT IN THE MARKET</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="pic3.jpg">
+                    <div class="layer">
+                        <h3>TO STAND THE TEST OF TIME NO MATTER WHAT</h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!---------- Our Gifts---------->
+    <section class="gift">
+        <h1>Our Type Of Gifts</h1>
+        <p>Here are our sample of gifts</p>
+
+        <div class="row">
+            <div class="gift-col">
+                <img class="plate" src="plate.jpg">
+                <h1>A set of plates</h1>
+            </div>
+
+            <div class="gift-col">
+                <img class="tea" src="Tea cup and saucers.jpg">
+                <h1>Tea cups & Saucers</h1>
+            </div>
+
+            <div class="gift-col">
+                <img src="cooler.jpg">
+                <h1>Coolers</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------Testimonials------- -->
+    <section class="testimonials">
+        <h1>What Our Customers Says</h1>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="mumy Ada.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Mummy Ada</h3>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="Chidi.png">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Chidi</h3>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!----------javaScript for Toggle Menu--------->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showMenu(){
+            navlink. style.right = "0"
+        }
+        function hideMenu(){
+            navlink. style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
