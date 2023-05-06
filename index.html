@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="DANEKE 2.png">
+    <link rel="icon" href="DANEKE 2.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -13,18 +14,17 @@
     <title>Daneke Enterprise</title>
 </head>
 <body>
-    <section class="header">
+    <section class="header" id="index">
         <nav>
            <a href="index.html"><img class="nav-logo" src="DANEKE 2.png"></a>
            <div class="nav-link" id="navlink">
             <i class='bx bx-x' onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">COURSE</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">SIGN IN</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="sign.html">REGISTER</a></li>
                 </ul>
            </div>
            <i class='bx bx-menu' onclick="showMenu()"></i>
@@ -37,11 +37,50 @@
         </div>
 
     </section>
-    <!-- ------ Course ------ -->
+
+    <!-- =======ABOUT US======== -->
+    <section>
+        <div class="about" id="about">
+            <h1>ABOUT US</h1>
+            <P>Daneke Enterprise is a business that deals with financials, allowing
+                people to cultivate a saving habit <br> and helping them with loans to 
+                solve their little issues. This business was establish since February
+                20th, 2012 and is managed by <br> Victor Glory a university graduate 
+                with a certificate in accounting. <br> She is set to help her community
+                people through this business and also make her incomes through it.
+            </P>
+                <div class="picture">
+                    <img class="naira1" src="naira.jpeg">
+                    <img class="naira2" src="naira2.jpg">
+                </div>
+        </div>
+    </section>
+
+    <!-- ========SERVICES======== -->
+    <section class="section">
+        <div class="service" id="service">
+            <div>
+                   <h1>OUR SERVICE</h1>
+            <P>We render financial services to small traders,
+                stall owners, market sellers or those that <br> want to start 
+                up a business. We help one cultivate a saving habit.</P>
+            </div>
+         
+                    
+        </div>
+    </section>
+
+    <div class="img-con">
+        <div>
+             <img class="img3" src="market.webp" alt="">
+        </div>
+    </div>
+
+    <!-- ------ OUR OFFER ------ -->
     <section class="course">
         <h1>Our Offer</h1>
         <p>Daneke enterprise allows you enjoy this little benefit
-            as an appreciation for your patronage. 
+         as an appreciation for your patronage. 
         </p>
 
             <div class="row">
@@ -131,7 +170,10 @@
         <div class="row">
             <div class="testimonials-col">
                 <img src="mumy Ada.jpg">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Ever since I started making my daily contribution with <a href="index.html">Daneke Enterprise,</a>
+                 I have been able to meet my target for the year, I have been able to pay my
+                little bills and also work on my projects. Daneke Enterprise enables us to save 
+                 without spending unnecessarily. Thank you Daneke Enterprise!</p>
                 <h3>Mummy Ada</h3>
                 <i class='bx bxs-star' ></i>
                 <i class='bx bxs-star' ></i>
@@ -142,8 +184,13 @@
 
             <div class="testimonials-col">
                 <img src="Chidi.png">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <h3>Chidi</h3>
+                <p>With Daneke Enterprise, I have been able to save for my rents and
+                and other bills. It brings the banking services to my shop, I don't 
+                really need to go to the bank to deposit my cash. Daneke Enterprise 
+                also boost my business by giving me loan. I truly appreciate their services.
+                 Daneke for life.
+                </p>
+                <h3>Gbenga</h3>
                 <i class='bx bxs-star' ></i>
                 <i class='bx bxs-star' ></i>
                 <i class='bx bxs-star' ></i>
@@ -153,10 +200,37 @@
         </div>
     </section>
 
+    <!-- -----call to action----- -->
+        <section class="cta" id="contact.html">
+            <h1>Contact Us From Anywhere</h1>
+            <a href="contact.html" class="hero-btns">CONTACT US</a>
+        </section>
 
-
-
-
+    <!-- -----footer----- -->
+    <section class="footer">
+        <h4 class="hstyle">About Us</h4>
+        <p class="pstyle">We render financial services to small traders,
+         stall owners, market sellers or those that <br> want to start 
+         up a business. We help one cultivate a saving habit.</p>
+         <div class="icons">
+            <a class="whatsapplink" href="https://api.whatsapp.com/send?phone=23408029430631">
+                <i class='bx bxl-whatsapp whatsapp-button'  ></i>
+            </a>
+            <a href="https://www.facebook.com/">
+                <i class='bx bxl-facebook facebook-button'  ></i>
+            </a>
+             <a href="#index">
+                <i class='bx bx-chevrons-up chevrons-up-button'  ></i>
+            </a>
+            <a href="#footer" id="footer">
+                <i class='bx bx-chevrons-down chevrons-down-button' ></i>
+            </a>
+            <i class='bx bxl-gmail' ></i>
+            <i class='bx bxs-contact' ></i>
+            <i class='bx bxl-linkedin' ></i>
+         </div>
+         <p class="pstyle">Made with <i class='bx bxs-smile' ></i> <i class='bx bxs-heart' ></i> by AD-Designer</p>
+    </section>
 
 
     <!----------javaScript for Toggle Menu--------->
