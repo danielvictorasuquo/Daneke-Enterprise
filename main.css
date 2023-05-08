@@ -104,6 +104,25 @@
     outline: none;
     resize: none;
 }
+#send{
+    width: 130px;
+    height: 50px;
+    background: #1B4C51;
+    font-size: 25px;
+    margin: 10px 0;
+    border: none;
+    color: white;
+    outline: none;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
 .contactform .inputbox span{
     position: absolute;
     left: 0;
