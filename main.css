@@ -104,8 +104,8 @@
     outline: none;
     resize: none;
 }
-#send{
-    width: 130px;
+/* #send{
+    width: 150px;
     height: 50px;
     background: #1B4C51;
     font-size: 25px;
@@ -117,7 +117,7 @@
     border-radius: 30px;
     align-items: center;
     justify-content: center;
-}
+} */
 .a{
     text-decoration: none;
     color: white;
